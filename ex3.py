@@ -15,7 +15,7 @@ K – 5 очков; J, X – 8 очков; Q, Z – 10 очков.
 '''
 
 scrabble = {1:'AEIOULNSTRАВЕИНОРСТ', 2:'DGДКЛМПУ', 3:'BCMPБГЁЬЯ', 4:'FHVWYЙЫ', 5:'KЖЗХЦЧ', 8:'JXШЭЮ', 10:'QZФЩЪ'}
-text='НОУТБУК'
+text=input('Введите слово в верхнем регистре: ')
 count=0
 for i in scrabble.keys():
     for j in range(len(text)):
